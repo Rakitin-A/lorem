@@ -1,0 +1,55 @@
+// html,
+// body {
+//     height: 100%;
+// }
+body {
+    // font-size: 16px;
+    // line-height: 26px;
+    // color: $default;
+    // @extend %quicksand-500;
+    display: flex;
+    flex-direction: column;
+    // font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-blue{
+    background-color:#3D53A4;
+    color: #fff;
+}
+.btn-num{
+    background-color: #757575;
+    color: #fff;
+}
+.btn-gray{
+    background-color: #C4C4C4;    
+    color: #000;
+}
+
+// a{
+//     font-size: 16px;
+//     line-height: 26px;
+//     color: $default;
+//     @extend %quicksand-500;
+// }
+
+// .title{
+//     text-align: center;
+//     @extend %roboto-700;
+//     font-size: 48px;
+//     line-height: 65px;
+//     color: $title;
+//     margin-bottom: 10px;
+//     text-transform: uppercase;
+// }
